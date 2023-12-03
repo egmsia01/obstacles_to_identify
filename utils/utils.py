@@ -480,4 +480,3 @@ class ModelCheckpoint(keras.callbacks.Callback):
                     self.model.save_weights(filepath, overwrite=True)
                 else:
                     self.model.save(filepath, overwrite=True)
-

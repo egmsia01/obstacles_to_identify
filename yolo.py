@@ -13,7 +13,6 @@ from tensorflow.keras.models import Model, load_model
 from nets.yolo4_tiny import yolo_body, yolo_eval
 from utils.utils import letterbox_image
 
-
 #--------------------------------------------#
 #   使用自己训练好的模型预测需要修改2个参数
 #   model_path和classes_path都需要修改！

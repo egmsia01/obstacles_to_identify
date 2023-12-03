@@ -12,6 +12,7 @@ from yolo import YOLO
 gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
 for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
+    
 '''
 该FPS测试不包括前处理（归一化与resize部分）、绘图。
 包括的内容为：网络推理、得分门限筛选、非极大抑制。

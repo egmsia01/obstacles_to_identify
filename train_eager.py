@@ -17,7 +17,6 @@ from nets.yolo4_tiny import yolo_body
 from utils.utils import (ModelCheckpoint, WarmUpCosineDecayScheduler,
                          get_random_data, get_random_data_with_Mosaic, rand)
 
-
 #---------------------------------------------------#
 #   获得类和先验框
 #---------------------------------------------------#
